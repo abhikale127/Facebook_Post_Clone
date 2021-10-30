@@ -1,0 +1,278 @@
+/* 1.Popup */
+/* Popup style */
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .box {
+    position: relative;
+    width: 61%;
+    margin: 0 auto;
+    height: 40rem;
+    max-height: 85vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #999;
+    overflow: auto;
+    border-radius: 10px;
+  }
+  
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15%  - -97px);
+    top: calc(100vh - 85vh - 20px);
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+  }
+
+  /* Landing Page */
+  .Post_btn{
+    background: #006FF7;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 13.12rem;
+    height: 3.12rem;
+    border-radius: 0px 20px 0px 0px;
+    
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.427179px;
+opacity: 1 !important;
+
+color: #FFFFFF;
+}
+.Home_Navbar{
+    background: #006FF7;
+    opacity: 0.5;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+H1{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 80px;
+letter-spacing: -2.01026px;
+color: black;
+}
+h2{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 55px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -1.05538px;
+
+color: blue;
+}
+p{
+    margin: 0%;
+}
+.Post_button {
+    display: flex;
+    justify-content: space-around;
+}
+.vl {
+    border-left: 1px solid #404347;;
+    height: 17px; 
+    opacity: 0.5;
+    margin-top: 3px;
+  }
+.Popup_Nav{
+    width: 100%;
+    background-color: #DEEDF0;
+    box-shadow: 0px 7px 34px rgba(0, 0, 0, 0.133714);
+    border-bottom: #404347;
+    height: 2rem;
+    
+}
+.Nav_Item{
+    display: flex;
+    justify-content: space-around;
+    width: 32rem;
+    padding-top: 4px;
+}
+.Nav_P{
+    color: #006FF7;
+}
+::placeholder { 
+    color: gray;
+    opacity: 0.5; 
+    font-size: 30px;
+   line-height: 30px;
+   padding-left: 1rem;
+
+  }
+.Serch_Input{
+    width: 100%;
+}
+.SearchBar{
+    display: flex;
+}
+.Serch_Input{
+    outline: none;
+    background-color: transparent;
+    border: 0px solid;
+    color: black;
+    height: 9rem;
+    width: 60rem;
+    font-size: 30px;
+line-height: 35px;
+
+}
+.male_user{
+    width: 4rem;
+        height: 4rem;
+        margin: 1rem;
+        padding-top: 1rem;
+}
+.Colors_btn{
+    width: 2rem;
+    height: 2rem;
+    color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 5px;
+    
+}
+.Colors{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 6rem;
+}
+.Features_Buttons{
+    background: #DEEDF0;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 16px;
+    margin: 1rem 0;
+}
+.Features{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.none{
+    display: none;
+}
+.searchboxWrapper{
+    position: absolute;
+    left: 5rem;
+}
+.Post{
+    background: #006FF7;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 10.12rem;
+    height: 2.12rem;    
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.427179px;
+opacity: 1 !important;
+margin: 1rem;
+color: #FFFFFF;
+}
+.Only_me{
+  
+	color: inherit;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    width: 10.12rem;
+    height: 2.12rem;    
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.427179px;
+color: black;
+margin: 1rem;
+}
+.Post_Button{
+    display: flex;
+    justify-content: flex-end;
+}
+.Card{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+@media screen and (max-width: 600px) {
+    H1{
+        font-size: 35px;
+    }
+    .box{
+        width: 94%;
+    }
+    .Nav_Item{
+        display: none;
+    }
+    .close-icon {
+      
+        right: calc(15% - 34px);
+      
+      
+    }
+    .male_user {
+        width: 2rem;
+        height: 2rem;
+    
+    }
+    .Serch_Input {
+        width: 16rem;
+        height: 6rem;
+    }
+    ::placeholder { 
+        color: gray;
+        opacity: 0.5; 
+        font-size: 15px;
+       line-height: 20px;
+       padding-left: 1rem;
+    
+      }
+      .Colors {
+          width: 100%;
+          margin-left: 0;
+      }
+}
